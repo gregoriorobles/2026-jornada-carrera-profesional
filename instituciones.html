@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="author" content="Gregorio Robles">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Jornada de Carrera Profesional 2026 - EIF - URJC</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Jornada de Carrera Profesional - EIF - URJC </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="programa.html">Programa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="instituciones.html">Instituciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="estudiantes.html">Estudiantes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://gregoriorobles.github.io/2025-jornada-carrera-profesional/index.html">2025</a>
+          </li>          
+          <li class="nav-item">
+            <a class="nav-link" href="https://gregoriorobles.github.io/2024-jornada-carrera-profesional/index.html">2024</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://gregoriorobles.github.io/2023-jornada-salidas-profesionales/index.html">2023</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://gregoriorobles.github.io/2023-jornada-salidas-profesionales/20220921/index.html">2022</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/uno.jpg" width="100%" height="100%" alt="Imagen de la Escuela"/>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Jornada de Carrera Profesional - 24 de septiembre de 2026</h1>
+            <p>Escuela de Ingeniería de Fuenlabrada - Campus de Fuenlabrada - Aulario III</p>
+            <p><a class="btn btn-lg btn-primary" href="programa.html">Ver Programa</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/dos.jpg" width="100%" height="100%" alt="Imagen de la Escuela"/>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Jornada de Carrera Profesional - 24 de septiembre de 2026</h1>
+            <p>Escuela de Ingeniería de Fuenlabrada - Campus de Fuenlabrada - Aulario III</p>
+            <p><a class="btn btn-lg btn-primary" href="instituciones.html">Información para Empresas</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/tres.jpg" width="100%" height="100%" alt="Imagen de la Escuela"/>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Jornada de Carrera Profesional - 24 de septiembre de 2026</h1>
+            <p>Escuela de Ingeniería de Fuenlabrada - Campus de Fuenlabrada - Aulario III</p>
+            <p><a class="btn btn-lg btn-primary" href="estudiantes.html">Información para Estudiantes</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+<h1>Información para Instituciones Participantes</h1>
+
+<h2>¿Interesados en participar?</h2>
+
+<!--
+<p>Este año hemos cerrado ya la participación, pero si vuestra institución está interesada en participar en futuras ediciones, mandad un correo a Gregorio Robles (gregorio.robles arroba urjc.es).</p>
+-->
+
+<p>¿Eres una empresa o una institución con interés en los perfiles de Ing. Telecomunicación, Ing. Aeroespacial, Ing. Biomédica, Ciencia e Ingeniería de Datos, Ing. Robótica Software, Arquitectura y Paisajismo quieres participar en la jornada? Si es así, sólo tienes que <a href="https://forms.cloud.microsoft/e/7KZfBXzBDL">rellenar este formulario</a> antes del 3 de julio de 2026.
+
+<!--
+<b>Actualización 15.7: Ya está cerrada la participación de entidades para este año. Si estáis interesados en participar el curso que viene (septiembre 2026), ponte en contacto con Gregorio Robles en gregorio.robles arroba urjc.es.</b></p>
+-->
+
+<p>La participación es <b>gratuita</b>, tanto para entidades como para alumnos. Ese día se cancelarán las clases para facilitar que los estudiantes puedan asistir. En las sesiones plenarias intentamos que todos los alumnos del mismo perfil asistan y conozcan a las entidades interesadas en su perfil. Por eso el tiempo por entidad en la sesión plenaria está limitado a unos pocos minutos, Se trata de una manera para que los estudiantes conozcan a todas las entidades solicitantes, y puedan luego asistir a las presentaciones de las entidades (de 20 o 25 minutos) que les interesen.</p>
+
+<!--  
+
+<h2>Instituciones Participantes</h2>
+
+  <p>A continuación, se ofrece información sobre las instituciones participantes en la Jornada de Carrera Profesional. A <b>30 de septiembre de 2026</b> nos han confirmado su participación las siguientes entidades:</p>
+
+   <ol>
+        <li>Accenture</li>
+        <li>AECOM</li>
+        <li>Airbus Operations S.L.</li>
+        <li>Alumni URJC</li>
+        <li>ARUP</li>
+        <li>Asociación Española de Paisajistas</li>
+        <li>Ayuntamiento de Madrid (Madrid Talento)</li>
+        <li>Bolsa de Empleo URJC</li>
+        <li>Capgemini</li>
+        <li>CNIO</li>
+        <li>Colegio Oficial de Arquitectos de Madrid (COAM)</li>
+        <li>Colegio Oficial de Ingenierios Aeronáuticos de España (COIAE)
+        <li>Colegio Oficial de Ingenieros de Telecomunicación (COIT) y Asociación Española de Ingenieros de Telecomunicación Madrid (AEIT-M)
+        <li>Colegio Oficial de Ingenieros Técnicos de Telecomunicación (COITT)
+        <li>Correos</li>
+        <li>CT Ingenieros</li>
+        <li>Deloitte</li>
+        <li>EDP</li>
+        <li>EPAM SYSTEMS SPAIN, S.L.</li>
+        <li>Exceltic S.L.</li>
+        <li>Fundacion Laboral de la Construcción de Madrid</li>
+        <li>Fundación Universidad-Empresa</li>
+        <li>Fundación ThePinkForce</li>
+        <li>GMV</li>
+        <li>Grupo TSD</li>
+        <li>Hispasat S.A</li>
+        <li>Inerco Acustica</li>
+        <li>Ingeniería y Economía del Transporte S.M.E. M.P., S.A.</li>
+        <li>Instituto de Ingeniería del Conocimiento (IIC)</li>
+        <li>INTA</li>
+        <li>KPMG</li>
+        <li>Kyndryl España S.A.</li>
+        <li>Logicalis Spain</li>
+        <li>Monitorización y Medidas. MoMe</li>
+        <li>NTT DATA</li>
+        <li>S2 Group</li>
+        <li>Sener</li>
+        <li>Thales Alenia Space</li>
+        <li>Telefonica Innovación Digital</li>
+        <li>Telefonica Servicios Audiovisuales</li>
+        <li>Vicerrectorado de Estudiantes, Empleabilidad y Emprendimiento</li>
+        <li>Waima Group</li>
+  </ol>
+
+  <p>El listado está ordenado alfabéticamente según el nombre que las propias entidades han indicado en el formulario de inscripción.</p>
+
+  <p>&nbsp;</p>
+-->
+
+<hr>
+
+<p>A continuación se ofrece información de interés para las entidades (empresas e instituciones) participantes en la Jornada de Carrera Profesional.</p>
+
+<br/>
+<h2>1. Cómo llegar</h2>
+
+<p>Las jornadas tendrán lugar en</p>
+
+<p>Edificio Aulario III - Segunda Planta
+<br/>Campus de Fuenlabrada - Camino del Molino, 5, Fuenlabrada
+<br/>Universidad Rey Juan Carlos
+<br/>Coordenadas aparcamiento: 40.283761, -3822171
+</p>
+
+<iframe width="637" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-3.830044269561768%2C40.2800331383143%2C-3.8128995895385747%2C40.287505594927275&amp;layer=mapnik&amp;marker=40.28376537761674%2C-3.821471929550171" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=40.28377&amp;mlon=-3.82147#map=17/40.28377/-3.82147">Ver Mapa Más Grande</a></small>
+
+<br/>&nbsp;
+
+<p>Si no utilizais GPS, os recomiendo que comprobéis por adelantado cómo llegar, porque la primera vez no es sencillo.</p>
+
+<br/>
+<h2>2. Aparcar en el Campus</h2>
+
+<p>Al entrar en el Campus, en la rotonda de entrada, hay que girar a la derecha. El edificio Aulario III es el que tiene una gran antena rojiblanca al final del mismo.</p>
+
+<p>Se puede aparcar bien en el aparcamiento delante del edificio. El aparcamiento es público y gratuito.</p>
+
+<br/>
+<h2>3. Recepción</h2>
+
+<p>La hora de recepción es de 9:00 a 9:15. Notad que estaremos montando hasta esa hora, así que si venís antes, os recomendamos que visitéis la cafetería que se encuentra en el sótano del mismo edificio (Aulario III) y disfrutéis de un café hasta las 9:00.</p>
+
+<p>La recepción tendrá lugar en la segunda planta. Un profesor os indicará dónde está vuestro stand, y os acompañará al lugar donde estén los materiales que hayáis enviado por mensaje, si este fuera el caso.</p>
+
+<br/>
+<h2>4. Stands</h2>
+
+<p>Los stands se situarán en los pasillos de la segunda planta y en dos aulas que dispondremos para tal fin. Constarán de una mesa y dos sillas por entidad, y los podréis identificar por una hoja en la que pondremos el nombre de vuestra entidad. Las mesas estarán disponibles desde las 9:00 y podréis utilizarlas hasta el final de la jornada. La ubicación de los stands se sortea, aunque todos los stands estarán ubicados en lugares suficientemente cómodos y accesibles para las empresas y los estudiantes.</p>
+
+<center>
+<img src="img/pasillos.png" width="800" height="400" alt="Pasillo en 2020"/>
+<p>En la imagen se puede ver la disposición de stands en el aula en la jornada de años anteriores.</p>
+</center>
+
+<br/>
+<h2>5. Presentaciones para las sesiones plenarias</h2>
+
+<p>En las plenarias, todas las empresas tendrán un espacio breve de unos pocos minutos para presentarse --una detrás de otra-- ante todos los alumnos del perfil correspondiente. El objetivo de las sesiones plenarias es que los estudiantes puedan conocer a todas las entidades participantes que están interesadas en su perfil en una única sesión. Se trata, por tanto, de una oportunidad para daros a conocer entre el estudiantado y captar su atención e interés, para que vayan a visitaros luego a vuestro stand o para que asistan a vuestra charla larga, donde podréis dar más información.</p>
+
+<p>El tiempo que tiene cada empresa será el siguiente (esto puede cambiar todavía, según el número de instituciones participantes interesadas en cada perfil):</p>
+
+<p>Ing. Telecomunicación, Ciencia e Ing. de Datos, Ing. Robótica Software: 90 segundos
+<br/>Ing. Aeroespacial: 90 segundos
+<br/>Ing. Biomédica: 2 minutos
+<br/>Arquitectura y Paisajismo: 2 minutos</p>
+
+<center>
+<img src="img/plenaria.jpg" width="600" height="400" alt="Plenaria en 2020"/>
+<p>En la imagen se puede ver una presentación de una empresa en la plenaria de Ing. Aeroespacial de una jornada de años anteriores.</p>
+</center>
+
+<p>Debido al corto espacio de tiempo del que disponéis, no podréis conectar vuestros equipos. Sin embargo, si queréis utilizar transparencias durante vuestra breve presentación, <b>podéis enviarlas en un archivo PDF (máximo 4 páginas) por correo electrónico a roberto.sanmillan (arroba) urjc.es hasta el lunes 21.9 (incluido)</b>. Se creará una presentación única que irá pasando automáticamente siguiendo el tiempo que tenéis, anunciando las empresas que presentan a continuación. Si no enviáis transparencias, pondremos una con el nombre de vuestra entidad de fondo mientras habláis.</p>
+
+<p>Más abajo, en <a href="#plenarias">el punto correspondiente</a> podeis encontrar el orden de las entidades en las sesiones plenarias para que podáis ir al aula unos minutos antes de vuestra presentación, por si no queréis asistir a las presentaciones de las demás entidades.</p>
+
+<br/>
+<h2>6. Presentaciones de empresa</h2>
+
+<p>Contaréis con 20 minutos para las presentaciones de empresa en aulas que cuentan con cañón y ordenador con conexión a Internet, así que podéis traer vuestras presentaciones en un USB. También podéis traer vuestros portátiles. Hay también equipo de sonido. No nos enviéis vuestras presentaciones, porque no las podremos llevar al aula.</p>
+
+<p>Estas presentaciones serán en aulas con capacidad de 80 a 100 alumnos. Habrá siempre al menos un profesor en la sala por si necesitaráis cualquier cosa.</p>
+
+<!--
+<p>¿Dónde puede ver cuándo son las charlas? Pues en la página con el <a href="programa.html">programa</a>.</li>
+
+<br/>
+<h2>5. Talleres</h2>
+
+<p>Ofrecemos la posibilidad de que las entidades participantes oferten talleres, más allá de su presentación de empresa, relacionados con la inserción en el mundo laboral, la práctica profesional, las entrevistas, etc. No se aceptan talleres que sean presentaciones de empresa, ni una extensión de las presentaciones, porque para eso ya están las presentaciones de empresa.</p>
+
+<p>Si queréis proponer un taller, poneos en contacto con Gregorio Robles, gregorio.robles@urjc.es, el organizador de la jornada, dando información sobre el mismo.</p>
+
+<p>Si se acepta un taller, contaréis según la necesidad con 25 o 50 minutos para el mismo en un aula que cuenta con cañón y ordenador con conexión a Internet, así que podéis traer vuestras presentaciones en un USB. También podéis traer vuestros portátiles. Hay también equipo de sonido.</p>
+-->
+
+<br/>
+<h2>7. Envío de material</h2>
+
+<p>Podéis enviar material por mensajería a la siguiente dirección:</p>
+
+<p>Gregorio Robles
+<br/>Departamental III - Despacho 110
+<br/>Campus de Fuenlabrada
+<br/>28943 Fuenlabrada
+<br/>Teléfono: 914887221
+</p>
+
+<p>Lo sentimos, pero <b>no tenemos capacidad para confirmaros que el material ha llegado</b>.</p>
+
+<p>El horario de envío de material es cualquier día laborable de 8:00 a 22:00, que es cuando el Campus está abierto.</p>
+
+<br/>
+<h2>8. Recogida de material</h2>
+
+<p>Después de la jornada, podréis dejar lo que queréis que un mensajero vaya a recoger convenientemente identificado en conserjería. Los mensajeros habrán de dirigirse para recogerlo a:</p>
+
+<p>Conserjería del Aulario III
+<br/>Campus de Fuenlabrada
+<br/>Coordenadas: 40.284084, -3.821349
+<br/>Teléfono: 914887221
+</p>
+
+<p>No tenemos capacidad para confirmaros que el material ha sido recogido.</p>
+
+<p>El horario de recogida de material es cualquier día laborable de 8:00 a 22:00, que es cuando el Campus está abierto.</p>
+
+
+
+<br/>
+<h2>9. Comida</h2>
+
+<p>Hemos organizado un tentempié con los profesores de la EIF al término de la jornada a las 15:15, al que están cordialmente invitadas todas las entidades participantes. Os comentaremos dónde tendrá lugar la comida durante la jornada.</p>
+
+
+<br/>
+<h2>10. Seguridad</h2>
+
+<p>Hemos pedido que haya refuerzo de seguridad durante la jornada. Para cualquier cuestión que surja al respecto, además de con los miembros de seguridad que van de uniforme fácilmente identificable, por favor, poneos en contacto con cualquier profesor, que os sabrá ayudar.</p>
+
+<!--
+<br/>
+<h2>10. Cartel</h2>
+
+<p>Podéis acceder a la última versión del <a href="cartel-jornada.pdf">cartel-anuncio de la Jornada en PDF</a>.</p>
+-->
+
+<br/>
+<a name="plenarias"/>
+<h2>11. Plenarias</h2>
+
+<p>La información sobre los horarios y el orden de las plenarias se publicará en borrador el 10 de septiembre, y el definitivo el 21 de septiembre.</p>
+
+<!--
+<p>A continuación, se incluye un listado por <b>orden de presentación</b> de las entidades participantes en las diferentes sesiones plenarias:</p>
+
+<p>A. Ing. Telecomunicación, Ciencia e Ingeniería de Datos e Ing. Robótica Software  -- <b>9:30 en aula 322</b> (100 segundos por institución; el tiempo es estricto)</p>
+
+<ol>
+        <li>AECOM</li>
+        <li>Capgemini</li>
+        <li>Colegio Oficial de Ingenieros de Telecomunicación (COIT) y Asociación Española de Ingenieros de Telecomunicación Madrid (AEIT-M)
+        <li>Colegio Oficial de Ingenieros Técnicos de Telecomunicación (COITT)
+        <li>Correos</li>
+        <li>EPAM SYSTEMS SPAIN, S.L.</li>
+        <li>Fundación Universidad-Empresa</li>
+        <li>Fundación ThePinkForce</li>
+        <li>GMV</li>
+        <li>Inerco Acustica</li>
+        <li>Instituto de Ingeniería del Conocimiento (IIC)</li>
+        <li>KPMG</li>
+        <li>Kyndryl España S.A.</li>
+        <li>Logicalis Spain</li>
+        <li>Monitorización y Medidas. MoMe</li>
+        <li>Telefonica Innovación Digital</li>
+        <li>Telefonica Servicios Audiovisuales</li>
+        <li>S2 Group</li>
+        <li>Sener</li>
+        <li>Waima Group</li>
+        <li>Accenture</li>
+        <li>Airbus Operations S.L.</li>
+        <li>Alumni URJC</li>
+        <li>Ayuntamiento de Madrid (Madrid Talento)</li>
+        <li>Bolsa de Empleo URJC</li>
+        <li>CT Ingenieros</li>
+        <li>Deloitte</li>
+        <li>Exceltic S.L.</li>
+        <li>Hispasat S.A</li>
+        <li>Ingeniería y Economía del Transporte S.M.E. M.P., S.A.</li>
+        <li>INTA</li>
+        <li>NTT DATA</li>
+        <li>Thales Alenia Space</li>
+        <li>Vicerrectorado de Estudiantes, Empleabilidad y Emprendimiento</li>
+        <li>EDP</li>
+</ol>
+
+<p>B. Fundamentos de Arquitectura y F. Paisajismo -- <b>9:30 en aula 326</b> (2 minutos por institución; el tiempo es estricto)</p>
+
+<ol>
+        <li>Vicerrectorado de Estudiantes, Empleabilidad y Emprendimiento</li>
+        <li>Alumni URJC</li>
+        <li>ARUP</li>
+        <li>Grupo TSD</li>
+        <li>Exceltic S.L.</li>
+        <li>AECOM</li>
+        <li>Asociación Española de Paisajistas</li>
+        <li>Ayuntamiento de Madrid (Madrid Talento)</li>
+        <li>Bolsa de Empleo URJC</li>
+        <li>Fundacion Laboral de la Construcción de Madrid</li>
+        <li>Ingeniería y Economía del Transporte S.M.E. M.P., S.A.</li>
+        <li>Telefonica Servicios Audiovisuales</li>
+</ol>
+
+
+<p>C. Ing. Aeroespacial -- <b>9:30 en aula 325</b> (90 segundos por institución; el tiempo es estricto)</p>
+
+<ol>
+        <li>Accenture</li>
+        <li>Airbus Operations S.L.</li>
+        <li>Bolsa de Empleo URJC</li>
+        <li>Colegio Oficial de Ingenierios Aeronáuticos de España (COIAE)
+        <li>CT Ingenieros</li>
+        <li>Fundación Universidad-Empresa</li>
+        <li>Hispasat S.A</li>
+        <li>Ingeniería y Economía del Transporte S.M.E. M.P., S.A.</li>
+        <li>INTA</li>
+        <li>NTT DATA</li>
+        <li>Exceltic S.L.</li>
+        <li>Grupo TSD</li>
+        <li>Thales Alenia Space</li>
+        <li>Vicerrectorado de Estudiantes, Empleabilidad y Emprendimiento</li>
+        <li>Alumni URJC</li>
+        <li>Capgemini</li>
+</ol>
+
+<p>D. Ing. Biomédica -- <b>10:35 en aula 322</b> (2 minutos por institución; el tiempo es estricto)</p>
+
+<ol>
+        <li>Accenture</li>
+        <li>Alumni URJC</li>
+        <li>Bolsa de Empleo URJC</li>
+        <li>CNIO</li>
+        <li>Instituto de Ingeniería del Conocimiento (IIC)</li>
+        <li>Kyndryl España S.A.</li>
+        <li>NTT DATA</li>
+        <li>Vicerrectorado de Estudiantes, Empleabilidad y Emprendimiento</li>
+    </ol>
+    
+-->
+
+<br/>
+<h2>12. Wi-fi</h2>
+
+<p>Os enviaremos credenciales para tener acceso a la red WiFi de la universidad por correo electrónico unos días antes del evento.</p>
+
+<br/>
+<h2>13. Seguro de Responsabilidad Civil</h2>
+
+<p>La URJC cuenta con un <a href="https://transparencia.urjc.es/organizacion/doc/seguros.pdf">seguro de responsabilidad civil</a> contratado con la aseguradora Mapfre.</p>
+
+
+<br/>
+<h2>14. Contacto</h2>
+
+<p>En los mensajes por correo electrónico que os enviaremos unos días antes de la jornada podréis encontrar un teléfono de contacto de uno de los profesores de la Escuela para cualquier cuestión que necesistéis ese día (que no encontráis el campus, el Aulario III, la sala, etc.)</p>
+
+  </div><!-- /.container -->
+
+  <p>&nbsp;</p>
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <center><a href="http://eif.urjc.es"><img src="img/logo_urjc.jpg" alt="Universidad Rey Juan Carlos"></a>
+    <p>&copy; 2022-6 Universidad Rey Juan Carlos &middot; Creado con <a href="https://getbootstrap.com">Bootstrap</a>. Las fotos del carrusel son (c) Virginia de Jorge Huertas.</p></center>
+  </footer>
+</main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
